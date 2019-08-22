@@ -1,0 +1,11 @@
+CREATE TABLE `EMPLEADO` (
+  `cedula` varchar(100) NOT NULL,
+  `nombre` varchar(100) NOT NULL,
+  `apellido` varchar(100) NOT NULL,
+  `fecha_nacimiento` date NOT NULL,
+  `departamento` varchar(100) NOT NULL,
+  `puesto` varchar(100) NOT NULL,
+  `salario` float NOT NULL,
+  PRIMARY KEY (`cedula`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='	';
+
