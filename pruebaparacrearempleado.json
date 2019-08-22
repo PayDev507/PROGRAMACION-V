@@ -1,0 +1,24 @@
+{
+  "messageVersion": "1.0",
+  "invocationSource": "FulfillmentCodeHook",
+  "sessionAttributes": {},
+  "bot": {
+    "name": "RRHH",
+    "alias": "$LATEST",
+    "version": "$LATEST"
+  },#primer registro para el CHATBOT, en teoria deberia quedar almacenada cuando lo solicita el chatbot
+  "outputDialogMode": "Text",#
+  "currentIntent": {
+    "name": "CrearEmpleado",
+    "slots": {
+      "cedula": "8-335-2446",
+      "nombre": "REGISTRO",
+      "apellido": "PRUEBA",
+      "fecha_nacimiento": "1998-12-01",
+      "departamento": "rrhh",
+      "puesto": "PAYROLL ASIST",
+      "salario": 2500.00
+    },
+    "confirmationStatus": "None"
+  }
+}
